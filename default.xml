@@ -34,7 +34,7 @@
   <project path="android" name="GladeRom/android_manifest" remote="glade" revision="gr-3.1" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
-  <project path="art" name="arter97/android_art" remote="github" revision="cm-12.1" />
+  <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" />
@@ -596,9 +596,6 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
-  
-  <!-- Source-built Xposed dependencies -->
-  <project path="frameworks/base/cmds/xposed" name="romracer/Xposed" remote="github" revision="master" />
 
   <project path="vendor/glade" name="GladeRom/android_vendor_glade" remote="glade" revision="gr-3.1" >
     <copyfile src="tools/build.sh" dest="build.sh" />
